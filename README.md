@@ -22,6 +22,7 @@ Verify Backend Running:
 ◦ Service starts at: http://127.0.0.1:8000
 ◦ API Documentation: http://127.0.0.1:8000/docs
 ◦ Health Check: http://127.0.0.1:8000/api/health
+
 Step 2: Start Frontend Application
 Open New Terminal/Command Prompt
 Navigate to Project Directory
@@ -55,6 +56,7 @@ Force Update
 Backend provides these API endpoints
 
 Troubleshooting
+
 Common Issues
 Blockchain Connection Failed
 Check network connection
@@ -76,28 +78,34 @@ Transaction Failures
 Check wallet balance is sufficient
 Confirm gas fees are set appropriately
 Verify contract status allows the operation
+
 Logs
 Backend Logs: View in terminal running backend
 Frontend Logs: View in "Operation Log" area of application interface
+
 Security Warnings
 Important Security Notes:
 Private Key Protection: Never hardcode private keys, use environment variables
 Test Network: Use only on test networks, never use mainnet private keys
 Fund Safety: Use only test ETH, never real funds
 Network Security: Run application in secure environment
+
 Development Notes
+
 Custom Configuration
 You can modify:
 contract_address: Contract address
 rpc_endpoints: List of RPC endpoints
 backend_url: Backend API address
 Private key management method
+
 Feature Extensions
 Possible enhancements:
 Add multi-contract support
 Implement user authentication
 Add more data analytics
 Support other blockchain networks
+
 Technical Support
 If you encounter issues:
 Check log outputs
